@@ -21,6 +21,46 @@
 .hero-left p{
     color: #F065AD;
     font-weight: 700;
+    font-size: 100px;
     
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 
 }
+.hero-hand-icon img{
+    width: 100px;
+
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background-color: #F065AD;
+    color: #03017D;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    object-fit: cover;
+    size: 120rem; 
+    right: 0;
+    /* z-index: 20; */
+
+
+}
+

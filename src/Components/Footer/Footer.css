@@ -1,0 +1,93 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 300px; */
+    justify-content: center;
+    /* margin: 0; */
+    gap: 2px;
+   
+}
+.footer-logo img{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -110px;
+
+    /* margin-top: 30px; */
+    /* margin-bottom:20px ; */
+}
+ .footer-logo p{
+    gap: 10px;
+    justify-content: space-between;
+    
+    /* color: #f065ad; */
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: -90px;
+
+ }
+ .footer-logo #vitu{
+    color: #f065ad;
+ }
+ .footer-logo #mpya{
+    color: #03017d;
+ }
+ .footer-links{
+    display: flex;
+    list-style: none;
+    gap:50px;
+    color: #f065ad;
+    font-size: 20px;
+ }
+ .footer-links li{
+    cursor: pointer;
+    
+ }
+ /* .footer-socials-icon{
+    display: flex;
+    gap: 20px;
+
+ } */
+ .footer-icons-container{
+    /* padding: 10px; */
+    justify-content: space-between;
+    padding-bottom: 30px;
+    /* color: #03017d; */
+    display: flex;
+    flex-direction: row;
+
+
+ }
+ .footer-icons-container svg{
+    font-size: 40px;
+    color: #f065ad;
+
+ }
+ .footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #FFC0CB;
+    font-size: 15px;
+ }
+ .footer-copyright hr{
+    width: 800px;
+    border: none;
+    border-radius: 10px;
+    height: 2px;
+    margin-top: 100px;
+    background: #FFC0CB;
+ }
