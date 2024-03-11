@@ -3,6 +3,7 @@ import bluejacket from './bluewomenjack.png'
 import reddress from './redtop.png'
 import redheavydress from './redblouse.png'
 import pinkblue from './image1.png'
+
 let data_product = [
     {
         id:1,
