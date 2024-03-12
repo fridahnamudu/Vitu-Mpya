@@ -2,6 +2,7 @@ import React from 'react'
 import './Item.css'
 
 function Item(props) {
+  console.log(props.name)
   return (
     <div className='item'>
         <img src={props.image} alt=""/>
